@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>child parent relationship</title>
+        </head>
+          <style>
+             #p{
+                 width:500px;
+                 height:500px;
+                 background:red;
+             }
+             #c1{
+                 width:250px;
+                 height:250px;
+                 background:gray;
+             }
+             #c2{
+                 width:250px;
+                 height:250px;
+                 background:pink;
+             }
+             #p:hover #c1{
+                 background:black;
+                 border-radius: 250px;
+             }
+             #p:hover #c2{
+                 background:navy;
+                 border-radius:250px;
+             }
+             #cc1{
+                 width:100px;
+                 height:100px;
+                 background:magenta;
+             }
+             #p:hover #cc1{
+                 background: yellow;
+                 border-radius:100px;
+             }
+          </style>
+        <body>
+            <div id="p">
+                   <div id="c1">
+                       <div id ="cc1"></div>
+                   </div>
+                   <div id="c2"></div>
+            </div>
+        </body>
+        </html>
